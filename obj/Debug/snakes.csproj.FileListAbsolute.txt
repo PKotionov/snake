@@ -4,3 +4,9 @@ D:\Паша\IT\visual studio\snakes\snakes\bin\Debug\snakes.pdb
 D:\Паша\IT\visual studio\snakes\snakes\obj\Debug\snakes.csprojResolveAssemblyReference.cache
 D:\Паша\IT\visual studio\snakes\snakes\obj\Debug\snakes.exe
 D:\Паша\IT\visual studio\snakes\snakes\obj\Debug\snakes.pdb
+D:\Паша\IT\snake\bin\Debug\snakes.exe.config
+D:\Паша\IT\snake\obj\Debug\snakes.exe
+D:\Паша\IT\snake\obj\Debug\snakes.pdb
+D:\Паша\IT\snake\bin\Debug\snakes.exe
+D:\Паша\IT\snake\bin\Debug\snakes.pdb
+D:\Паша\IT\snake\obj\Debug\snakes.csprojResolveAssemblyReference.cache
