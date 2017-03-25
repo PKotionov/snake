@@ -36,6 +36,22 @@ namespace snakes
             pList.Add(p1);
             pList.Add(p2);
 
+            int xzopa = 10;
+            int yzopa = 10;
+
+            Point p3 = new Point(xzopa, yzopa, 'Ж');
+            Point p4 = new Point(xzopa+1, yzopa, 'O');
+            Point p5 = new Point(xzopa + 2, yzopa, 'П');
+            Point p6 = new Point(xzopa + 3, yzopa, 'A');
+
+
+            pList.Add(p3);
+            pList.Add(p4);
+            pList.Add(p5);
+            pList.Add(p6);
+
+
+
             foreach (Point px in pList)
             {
            px.Drow();
