@@ -11,10 +11,10 @@ namespace snakes
         static void Main(string[] args)
         {
             Point p1 = new Point(1, 3, '*');
-            p1.Drow();
+   //         p1.Drow();
 
             Point p2 = new Point(4, 5, '#');
-            p2.Drow();
+   //         p2.Drow();
 
             List<int> numList = new List<int>();
             numList.Add(0);
@@ -30,7 +30,21 @@ namespace snakes
                 Console.WriteLine(i);
             }
 
-                      
+            numList.RemoveAt(0);
+
+            List<Point> pList = new List<Point>();
+            pList.Add(p1);
+            pList.Add(p2);
+
+            foreach (Point px in pList)
+            {
+           px.Drow();
+            }
+           
+               
+
+            
+                                  
             Console.ReadLine();
 
         }
