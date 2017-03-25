@@ -25,6 +25,10 @@ namespace snakes
             int y = numList[1];
             int z = numList[2];
 
+            foreach(int i in numList)
+            {
+                Console.WriteLine(i);
+            }
 
                       
             Console.ReadLine();
