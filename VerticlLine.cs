@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace snakes
 {
-    class HorizontLine
+    class VerticlLine
     {
-        List<Point> pList;
+        List<Point> vList = new List<Point>();
 
-        public HorizontLine(int xLeft, int xRight, int y, char sym)
+        public VerticlLine(int x, int yUp, int ydown, char sym)
         {
-            pList = new List<snakes.Point>();
-            for (int x = xLeft; x <= xRight; x++)
+            for (int y = yUp; y <= ydown; y++)
             {
                 Point p = new Point(x, y, sym);
-                pList.Add(p);
-
+                vList.Add(p);
             }
+
         }
 
         public void Drow()
         {
-            foreach(Point p in pList) {
+            foreach (Point p in vList)
+            {
                 p.Drow();
             }
         }

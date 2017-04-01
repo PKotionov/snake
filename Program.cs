@@ -14,15 +14,15 @@ namespace snakes
             p1.Drow();
 
             Point p2 = new Point(4, 5, '#');
-                     p2.Drow();
+            p2.Drow();
 
-            HorizontLine line = new HorizontLine();
-            line.Drow();
+            HorizontLine Hline = new HorizontLine(5, 10, 8, '_');
+            Hline.Drow();
 
-               
+            VerticlLine Vline = new VerticlLine(5, 9, 14, '|');
+            Vline.Drow(); 
 
-            
-                                  
+                                            
             Console.ReadLine();
 
         }
