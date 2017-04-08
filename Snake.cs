@@ -8,7 +8,7 @@ namespace snakes
 {
     class Snake : Figure
     {
-        Snake(Point tail, int lenght, Direction direction)
+       public Snake(Point tail, int lenght, Direction direction)
         {
             pList = new List<Point>();
             for(int i = 0; i < lenght; i++)
