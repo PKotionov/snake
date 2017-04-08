@@ -36,10 +36,17 @@ namespace snakes
 
         public void Move( int offset, Direction direction)
         {
-            if (direction == Direction.Right) x = x + offset;
-            else if (direction == Direction.Left) x = x - offset;
+            if (direction == Direction.Right) x = x - offset;
+            else if (direction == Direction.Left) x = x + offset;
             else if (direction == Direction.Down) y = y + offset;
             else y = y - offset;
+        }
+
+        public void Clear()
+        {
+            sym = ' ';
+            Drow();
+
         }
 
         public override string ToString()
