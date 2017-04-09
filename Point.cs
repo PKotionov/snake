@@ -39,7 +39,7 @@ namespace snakes
             if (direction == Direction.Right) x = x + offset;
             else if (direction == Direction.Left) x = x - offset;
             else if (direction == Direction.Down) y = y + offset;
-            else y = y - offset;
+            else if(direction == Direction.Up) y = y - offset;
         }
 
         public void Clear()
