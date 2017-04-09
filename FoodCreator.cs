@@ -8,23 +8,23 @@ namespace snakes
 {
     class FoodCreator
     {
-        int mapHeigh;
-        int mapWeigh;
+        int mapHeight;
+        int mapWeight;
         char sym;
 
         Random random = new Random();
 
-        public FoodCreator(int mapHeigh, int mapWeigh, char sym)
+        public FoodCreator(int mapHeight, int mapWeight, char sym)
         {
-            this.mapHeigh = mapHeigh;
-            this.mapWeigh = mapWeigh;
+            this.mapHeight = mapHeight;
+            this.mapWeight = mapWeight;
             this.sym = sym;
         }
 
         public Point Createfood()
         {
-            int x = random.Next(2, mapWeigh - 2);
-            int y = random.Next(2, mapHeigh - 2);
+            int x = random.Next(2, mapHeight - 2);
+            int y = random.Next(2, mapWeight - 2);
             return new Point(x, y, sym);
         }
 

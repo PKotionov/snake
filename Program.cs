@@ -49,7 +49,7 @@ namespace snakes
                     snake.HandleKey(key.Key);
                 }
                 snake.Move();
-                Thread.Sleep(300);
+                Thread.Sleep(500);
             }
                                           
           

@@ -23,8 +23,11 @@ namespace snakes
 
         public void Drow() 
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(sym);
+           
+                Console.SetCursorPosition(x, y);
+                Console.Write(sym);
+                     
+            
         }
 
         public Point(Point p)
