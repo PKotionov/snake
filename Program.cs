@@ -24,7 +24,7 @@ namespace snakes
             rightline.Drow();
 
             //отрисовки точек
-            Point p = new Point(7, 3, '*');
+            Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.Right);
             snake.Drow();
             snake.Move();

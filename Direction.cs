@@ -8,8 +8,8 @@ namespace snakes
 {
     enum Direction
     {
-        Left,
         Right,
+        Left,
         Up, 
         Down
     }
