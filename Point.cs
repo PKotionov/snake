@@ -21,7 +21,7 @@ namespace snakes
             sym = _sym;
         }
 
-        public void Drow()
+        public void Drow() 
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
@@ -53,8 +53,11 @@ namespace snakes
         {
             return x + ", " + y + ", " + sym;
         }
-
-
+        
+        public bool IsHit(Point p)
+        {
+            return p.x == this.x && p.y == this.y;
+        }
 
     }
 }
