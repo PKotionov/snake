@@ -36,20 +36,23 @@ namespace snakes
             {
                 if (snake.Eat(food))
                 {
+                    food.sym = '*';
+                    food.Drow();
                     food = foodCreator.Createfood();
                     food.Drow();
+
                 }
                 else
                 {
                     snake.Move();
                 }
-                    if (Console.KeyAvailable)
+                Thread.Sleep(100);
+                if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }
-                snake.Move();
-                Thread.Sleep(500);
+          
             }
                                           
           
